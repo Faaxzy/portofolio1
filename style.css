@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background: #f4f6f9;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff2b57;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    color: #ff2b57;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    background: #f4f6f9;
+    flex-wrap: wrap;
+  }
+  
+  .hero .text {
+    max-width: 600px;
+  }
+  
+  .hero .hello {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin: 15px 0;
+  }
+  
+  .hero h1 span {
+    color: #ff2b57;
+  }
+  
+  .hero .desc {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .hero button {
+    background-color: #ff2b57;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .hero .image img {
+    width: 350px;
+    filter: grayscale(100%);
+    border-radius: 10px;
+  }
+  
+  .section {
+    padding: 80px 60px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .section.dark {
+    background: #eaecef;
+  }
+  
+  .section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #111;
+  }
+  
+  .section p, .section ul {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  
+  .portfolio-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .portfolio-grid .item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #fff;
+  }
+button{
+  background-color: blue;
+  padding: 8px;
+  text-align: center;
+  width: 280px;
+}
+  
